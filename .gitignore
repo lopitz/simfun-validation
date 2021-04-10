@@ -1,0 +1,12 @@
+*.class
+*.log
+*.jar
+hs_err_pid*
+.idea
+*.iws
+*.iml
+target
+out/
+.idea_modules/
+.DS_Store
+.pmd
