@@ -294,7 +294,7 @@ Please find more information in [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## License
 
-Distributed under the Apache 2.0 License. See `LICENSE` for more information.
+Distributed under the MIT License. See [LICENSE.md](LICENSE.md) for more information.
 
 
 <!-- CONTACT -->

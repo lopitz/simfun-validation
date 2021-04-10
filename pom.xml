@@ -16,8 +16,8 @@
     <url>https://maven.apache.org</url>
     <licenses>
         <license>
-            <name>Apache License, Version 2.0</name>
-            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <name>MIT</name>
+            <url>https://raw.githubusercontent.com/lopitz/simfun-validation/main/LICENSE.md</url>
             <distribution>repo</distribution>
         </license>
     </licenses>
