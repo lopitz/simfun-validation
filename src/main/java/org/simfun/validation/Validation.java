@@ -77,8 +77,8 @@ public final class Validation<T> {
     }
 
     /**
-     * Adds a new validation into the chain. The check will be executed when the method {@code validate()} is called. As no error message is given the validation
-     * will either use the exception message in case of an exception, or a generic fallback message if no exception was thrown within the check.
+     * Adds a new validation into the chain. The check will be executed when the method {@code validate()} is called. As no error message is given the
+     * validation will either use the exception message in case of an exception, or a generic fallback message if no exception was thrown within the check.
      *
      * @param check Contains the actual check that will be executed.
      * @return Returns the updated validator chain.

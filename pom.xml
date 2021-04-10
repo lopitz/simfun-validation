@@ -13,7 +13,7 @@
     <description>
         Simple validation lib to use a more functional approach on validations.
     </description>
-    <url>https://maven.apache.org</url>
+    <url>https://github.com/lopitz/simfun-validation</url>
     <licenses>
         <license>
             <name>MIT</name>
@@ -21,25 +21,37 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
+    <scm>
+        <url>https://github.com/lopitz/simfun-validation</url>
+        <connection>scm:git:git@github.com:lopitz/simfun-validation.git</connection>
+        <developerConnection>scm:git:git@github.com:lopitz/simfun-validation.git</developerConnection>
+    </scm>
+    <developers>
+        <developer>
+            <id>lopitz</id>
+            <name>Lars Opitz</name>
+            <url>https://www.Lars-Opitz.com</url>
+        </developer>
+    </developers>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.sourceEncoding>UTF-8</project.reporting.sourceEncoding>
         <java.version>11</java.version>
-        <pmdVersion>6.20.0</pmdVersion>
+        <pmdVersion>6.33.0</pmdVersion>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
-        <maven-pmd-plugin.version>3.13.0</maven-pmd-plugin.version>
+        <maven-pmd-plugin.version>3.14.0</maven-pmd-plugin.version>
         <maven-surefire-plugin.version>3.0.0-M4</maven-surefire-plugin.version>
         <maven-release-plugin.version>2.5.3</maven-release-plugin.version>
         <maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>
-        <maven-checkstyle-plugin.version>3.1.0</maven-checkstyle-plugin.version>
+        <maven-checkstyle-plugin.version>3.1.2</maven-checkstyle-plugin.version>
         <maven-site-plugin.version>3.7.1</maven-site-plugin.version>
         <maven-project-info-reports-plugin.version>3.0.0</maven-project-info-reports-plugin.version>
         <maven-jacoco-plugin.version>0.8.5</maven-jacoco-plugin.version>
         <maven-jxr-plugin.version>3.0.0</maven-jxr-plugin.version>
         <maven-spotbugs-plugin.version>3.1.12.2</maven-spotbugs-plugin.version>
-        <checkstyle.version>8.29</checkstyle.version>
-        <junit-jupiter.version>5.5.2</junit-jupiter.version>
-        <assertj-core.version>3.15.0</assertj-core.version>
+        <checkstyle.version>8.41.1</checkstyle.version>
+        <junit-jupiter.version>5.7.1</junit-jupiter.version>
+        <assertj-core.version>3.19.0</assertj-core.version>
     </properties>
 
     <dependencies>

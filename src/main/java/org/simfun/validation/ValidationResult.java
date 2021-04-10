@@ -33,8 +33,8 @@ public final class ValidationResult<T> {
     /**
      * If and only if the validation was successful and no validation errors were raised, the given mapper function will be executed on the value given to the
      * validation. The result of the mapping function which is a validation result by itself will be unpacked from the created validation result. So instead of
-     * having a validation result with the newly calculated value inside another validation result there will be only one validation result with the newly created
-     * value.
+     * having a validation result with the newly calculated value inside another validation result there will be only one validation result with the newly
+     * created value.
      * The mapper result can be accessed then using {@link #orElseGet(BiFunction)}.
      *
      * @param mapper Contains the mapping function which will be executed with the value given to the validation, in case the validation was successful.
